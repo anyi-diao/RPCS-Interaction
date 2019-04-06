@@ -1,0 +1,32 @@
+.PatientSearch {
+  font-family: "Trebuchet MS";
+  position: absolute;
+  width: 40vw;
+  height: 600px;
+  right: 9vw;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Headline {
+  font-size: 13px;
+  color: #334D6E;
+  position: absolute;
+  left: 25px;
+  top: 30px;
+}
+
+.Note {
+  font-size: 14px;
+  color: #666666;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+.Note .Exclamation {
+  font-size: 24px;
+  color: #D5613C;
+}

@@ -1,0 +1,63 @@
+.App {
+  background-color: #F7F7F7;
+  font-family: "Trebuchet MS";
+}
+
+.App-logo {
+  width: 41px;
+  height: 41px;
+  pointer-events: none;
+}
+
+.App-header {
+  position: absolute;
+  top: 30px;
+  left: 9vw;
+  vertical-align: center;
+  font-size: 18px;
+  color: #1C2E36;
+}
+
+.App-header span {
+  vertical-align: center;
+  font-weight: bold;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(80%, -70%);
+}
+
+.Welcome-text {
+  font-size: 36px;
+  position: absolute;
+  left: 9vw;
+  top: 50px;
+  color: #1C2E36;
+}
+
+.Date-time {
+  font-size: 24px;
+  position: absolute;
+  text-align: right;
+  right: 9vw;
+  top: 60px;
+  color: #012A36;
+}
+
+.Date-time p {
+  margin-top: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
